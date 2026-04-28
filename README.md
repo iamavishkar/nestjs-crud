@@ -1,3 +1,3 @@
 # nestjs-crud
 
-A professional NestJS CRUD application (setup in progress).
+A professional NestJS CRUD starter application. Setup in progress.
