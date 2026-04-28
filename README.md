@@ -21,7 +21,7 @@ Copy the example environment file and adjust as needed:
 cp .env.example .env
 ```
 
-By default the app uses **SQLite** (zero-config). To switch to PostgreSQL update the relevant `DATABASE_*` variables in `.env`.
+By default the app uses **SQLite** (zero-config). To switch to MySQL update the relevant `DATABASE_*` variables in `.env`.
 
 ## Running the App
 
@@ -117,7 +117,7 @@ nestjs-crud/
 │   │   ├── configuration.ts             # Config factory
 │   │   └── env.validation.ts            # Joi env validation schema
 │   ├── database/
-│   │   └── database.module.ts           # TypeORM async config (SQLite / Postgres)
+│   │   └── database.module.ts           # TypeORM async config (SQLite / MySQL)
 │   └── users/
 │       ├── users.module.ts
 │       ├── users.controller.ts
